@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-balanced-time
+balanced_time
 =========================================
 |pypi_ver|
 
@@ -20,7 +20,7 @@ Installation
 
 Install balanced_time by running:
 
-    pip install balanced-time
+    pip install balanced_time
 
 
 Contribute
