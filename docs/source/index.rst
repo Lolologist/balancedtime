@@ -20,7 +20,7 @@ Installation
 
 Install balanced_time by running:
 
-    pip install project
+    pip install balanced-time
 
 
 Contribute
