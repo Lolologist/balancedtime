@@ -1,7 +1,16 @@
 from setuptools import setup
-2 
-3 setup(
-4     name='balanced-time',
-5     version='0.1',
-6     scripts=['seconds']
-7 )
+setup(
+    name='balanced-time',
+    version='0.1',
+    scripts=['balanced_time']
+    author="Daniel Bishop",
+    author_email="lolologist@gmail.com",
+    description="Convert regular time into 12-hour days and nights",
+    url='https://github.com/Lolologist/balanced-time'
+    packages=setuptools.find_packages(),
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: Apache Software License",
+        "Operating System :: OS Independent",
+    ]
+)
