@@ -8,7 +8,7 @@ with open(path.join(this_directory, "README.rst"), "r") as fh:
     long_description = fh.read()
 
 setup(
-    name='balancedtime',
+    name='balanced-time',
     version='0.106',
     author="Daniel Bishop",
     author_email="lolologist@gmail.com",
