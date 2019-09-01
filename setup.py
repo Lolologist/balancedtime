@@ -9,14 +9,15 @@ with open(path.join(this_directory, "README.rst"), "r") as fh:
 
 setup(
     name='balancedtime',
-    version='0.15b',
+    version='0.16b',
     author="Daniel Bishop",
     author_email="lolologist@gmail.com",
     description="Convert regular time into 12-hour days and nights",
     long_description=long_description,
     long_description_content_type="text/x-rst",
     url='https://github.com/Lolologist/balancedtime',
-    py_modules=["balancedtime"],
+    package_dir={'': 'balancedtime'},
+    packages=[''],
     install_requires=[
         'astral',
         'uszipcode'
