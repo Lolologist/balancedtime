@@ -9,7 +9,7 @@ with open(path.join(this_directory, "README.rst"), "r") as fh:
 
 setup(
     name='balancedtime',
-    version='0.11b',
+    version='0.13b',
     author="Daniel Bishop",
     author_email="lolologist@gmail.com",
     description="Convert regular time into 12-hour days and nights",
