@@ -108,14 +108,8 @@ def clock_conversion(zipcode=10010):
         hour +=1    
 
 
-def test():
-    clock_conversion()
-
-
 # Turn this module into a package.
 __path__ = []  # required for PEP 302 and PEP 451
 __package__ = __name__  # see PEP 366 @ReservedAssignment
 if globals().get("__spec__") is not None:
     __spec__.submodule_search_locations = []  # PEP 451 @UndefinedVariable
-if __name__ == "__main__":
-    test()
